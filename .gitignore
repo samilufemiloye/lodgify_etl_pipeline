@@ -1,0 +1,5 @@
+.venv/
+.env
+data/
+lodgify_etl.ipynb
+lodgifyetl.ipynb
