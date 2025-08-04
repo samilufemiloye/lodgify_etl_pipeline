@@ -145,7 +145,7 @@ def load_to_db(df):
 # Run All
 # ----------------------------------
 def main():
-    url = " " # Add the url here
+    url = " " # Paste the url here
     driver = configure_driver()
     page_source = load_and_scroll_page(driver, url)
     raw_data = extract_hotels_data(page_source)
