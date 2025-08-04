@@ -145,7 +145,7 @@ def load_to_db(df):
 # Run All
 # ----------------------------------
 def main():
-    url = "https://www.booking.com/searchresults.en-gb.html?ss=Lagos%2C+Lagos+State%2C+Nigeria&ssne=Albardeira&ssne_untouched=Albardeira&highlighted_hotels=12729225&efdco=1&label=accommodations-lagos-trTZZ0fYb6FvTTJ54yKjyQS713054487977%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-352294109007%3Alp9046654%3Ali%3Adec%3Adm&aid=311076&lang=en-gb&sb=1&src_elem=sb&src=hotel&dest_id=-2017355&dest_type=city&ac_position=1&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=7b4f4c3e552b0665&ac_meta=GhA3YjRmNGMzZTU1MmIwNjY1IAEoATICZW46BWxhZ29zQABKAFAA&checkin=2025-08-06&checkout=2025-08-10&group_adults=2&no_rooms=1&group_children=1&age=0"
+    url = " " # Add the url here
     driver = configure_driver()
     page_source = load_and_scroll_page(driver, url)
     raw_data = extract_hotels_data(page_source)
