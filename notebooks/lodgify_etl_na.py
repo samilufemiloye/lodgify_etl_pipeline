@@ -154,5 +154,5 @@ def main():
     load_to_csv(featured_data)
     load_to_db(featured_data)
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
     main()
